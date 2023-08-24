@@ -70,36 +70,42 @@ Services + Snort + Alerts
 	No hay nada que hacer aquí, en este apartado veremos las alertas de ataques o posibles ataques que detecta el snort gracias a las reglas descargadas.
 	
 Services + Snort + Blocked
+--------------------------------------
 
 ::
 
 	No se configura nada aquí. Se veran las IP bloqueadas y con la descripción del ataque.
 
 Services + Snort + Pass List
+--------------------------------------
 
 ::
 
 	Son las listas blancas, es decir las IP permitidas.
 	
 Services + Snort + Suppress
+--------------------------------------
 
 ::
 
 	Para remover reglas.
 	
 Services + Snort + IP List
+--------------------------------------
 
 ::
 
 	IP Reputacional
 	
 Services + Snort + SID Mgmt
+--------------------------------------
 
 ::
 
 	Snort will automatically enable/disable/modify text rules upon each update using criteria specified in SID Management Configuration lists
 
 Services + Snort + LOG Mgmt
+--------------------------------------
 
 ::
 
@@ -116,11 +122,12 @@ Aunque este es el primero del la lista de Menu, lo dejamos de ultimo porque aqu�
 
 
 Services + Snort + Snort Interfaces 
--------------------------------------
+========================================
 
 Pulsamos en Add
 	
 	- Services + Snort + Snort Interfaces + WAN Settings
+	--------------------------------------
 	
 	::
 
@@ -173,6 +180,7 @@ Pulsamos en Add
 		Save
 		
 	Services + Snort + Snort Interfaces + WAN Categories
+	--------------------------------------
 	
 		Automatic Flowbit Resolution
 		
@@ -191,6 +199,7 @@ Pulsamos en Add
 		Save
 		
 	Services + Snort + Snort Interfaces + WAN Rules
+	--------------------------------------
 	
 		Available Rule Categories
 		
@@ -202,24 +211,28 @@ Pulsamos en Add
 			
 		
 	Services + Snort + Snort Interfaces + WAN Variables
+	--------------------------------------
 	
 	::
 
 		No tocamos nada.
 		
 	Services + Snort + Snort Interfaces + WAN Preprocs
+	--------------------------------------
 	
 	::
 
 		No tocamos nada, lo dejamos por default
 		
 	Services + Snort + Snort Interfaces + WAN IP Rep
+	--------------------------------------
 	
 	::
 
 		No tocamos nada, lo dejamos por default
 		
 	Services + Snort + Snort Interfaces + WAN Logs
+	--------------------------------------
 	
 		No tocamos nada, lo dejamos por default. Pero al momento de querer ver los LOG solo debemos seleccionar que tipo de evento queremos ver.
 
@@ -227,6 +240,7 @@ Pulsamos en Add
 Ya cuando todo este guardado regresamos 
 
 Services + Snort + Snort Interfaces
+--------------------------------------
 
 y en Services + Snort + Snort Interfaces, vamos a ver nuestra configuración creada y lista para iniciarla
 
