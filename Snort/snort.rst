@@ -126,7 +126,7 @@ Services + Snort + Snort Interfaces
 
 Pulsamos en Add
 	
-- Services + Snort + Snort Interfaces + WAN Settings
+Services + Snort + Snort Interfaces + WAN Settings
 --------------------------------------
 	
 ::
@@ -204,6 +204,7 @@ Services + Snort + Snort Interfaces + WAN Rules
 --------------------------------------
 
 ::
+
 		Available Rule Categories
 		
 			Buscamos y seleccionamos IPS Policy - Security y luego pulsamos Enable All
@@ -238,6 +239,7 @@ Services + Snort + Snort Interfaces + WAN Logs
 --------------------------------------
 
 ::
+
 		No tocamos nada, lo dejamos por default. Pero al momento de querer ver los LOG solo debemos seleccionar que tipo de evento queremos ver.
 
 
@@ -309,4 +311,5 @@ https://www.youtube.com/watch?v=TvQfD5oUN5o
 
 
 Configurar un Outbound
+
 https://www.youtube.com/watch?v=7MtdwPYcK24
