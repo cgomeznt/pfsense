@@ -7,33 +7,33 @@ Veremos que se instala el snort	security	4.1.6_8
 
 Luego nos vamos a **Services + Snort** y vamos a ir configurando lo siguiente
 
-Services + Snort + Global Settings 
+- Services + Snort + Global Settings 
 	
-	** Enable Snort VRT "x" to enable download of Snort free Registered User or paid Subscriber rules
+	- Enable Snort VRT "x" to enable download of Snort free Registered User or paid Subscriber rules
 
-	** En esta opción debemos registrarnos en la pagina de snort "https://www.snort.org/users/sign_up" una vez registrados, nos vamos a la opción **Oinkcodes** y nos lo copiamos.
+	- En esta opción debemos registrarnos en la pagina de snort "https://www.snort.org/users/sign_up" una vez registrados, nos vamos a la opción **Oinkcodes** y nos lo copiamos.
 
-	** Snort Oinkmaster Copiamos el Oinkcodes
+	- Snort Oinkmaster Copiamos el Oinkcodes
 	
-	** Enable Snort GPLv2 "x" to enable download of Snort GPLv2 Community rules
+	- Enable Snort GPLv2 "x" to enable download of Snort GPLv2 Community rules
 	
-	** Enable ET Open "x" to enable download of Emerging Threats Open rules
+	- Enable ET Open "x" to enable download of Emerging Threats Open rules
 	
-	** Enable OpenAppID "x" to enable download of Sourcefire OpenAppID Detectors
+	- Enable OpenAppID "x" to enable download of Sourcefire OpenAppID Detectors
 	
-	** Enable AppID Open Text Rules "x" to enable download of the AppID Open Text Rules
+	- Enable AppID Open Text Rules "x" to enable download of the AppID Open Text Rules
 	
-	** Enable FEODO Tracker Botnet C2 IP Rules "x" to enable download of FEODO Tracker Botnet C2 IP rules
+	- Enable FEODO Tracker Botnet C2 IP Rules "x" to enable download of FEODO Tracker Botnet C2 IP rules
 	
-	** Update Interval 1 DAY
+	- Update Interval 1 DAY
 
-	** Remove Blocked Hosts Interval 1 HOURS
+	- Remove Blocked Hosts Interval 1 HOURS
 	
-	** Keep Snort Settings After Deinstall "x" to retain Snort settings after package removal.
+	- Keep Snort Settings After Deinstall "x" to retain Snort settings after package removal.
 	
-Services + Snort + Updates
+- Services + Snort + Updates
 
-	Debemos pulsar sobre el boton **Force Update** para que descargue todas las Reglas, va demorar un poco, y cuando culmine podemos ver el LOG y tambien en **Installed Rule Set MD5 Signature** como se actualizo
+	- Debemos pulsar sobre el boton **Force Update** para que descargue todas las Reglas, va demorar un poco, y cuando culmine podemos ver el LOG y tambien en **Installed Rule Set MD5 Signature** como se actualizo
 	
 Services + Snort + Alerts
 
