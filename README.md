@@ -1,4 +1,4 @@
 # pfsense
 Firewall de alto nivel
 
-* [Configurar Snort IPS/IDS](snort/snort.rst)
+* [Configurar Snort IPS/IDS](Snort/snort.rst)
