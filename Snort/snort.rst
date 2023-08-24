@@ -129,7 +129,7 @@ Pulsamos en Add
 - Services + Snort + Snort Interfaces + WAN Settings
 --------------------------------------
 	
-	::
+::
 
 		Enable "x" Enable interface
 		
@@ -141,7 +141,7 @@ Pulsamos en Add
 			
 			Snap Length 1518
 	
-	::
+::
 
 		Block Settings
 		
@@ -153,13 +153,13 @@ Pulsamos en Add
 			
 			Which IP to Block BOTH
 	
-	::
+::
 
 		Detection Performance Settings
 		
 			Search Method AC-BNFA
 	
-	::
+::
 
 		Choose the Networks Snort Should Inspect and Whitelist
 		
@@ -169,19 +169,21 @@ Pulsamos en Add
 			
 			Pass List Default
 	
-	::
+::
 
 		Choose a Suppression or Filtering List (Optional)
 		
 			Alert Suppression and Filtering Default
 	
-	::
+::
 
 		Save
 		
 Services + Snort + Snort Interfaces + WAN Categories
 --------------------------------------
-	
+
+::
+
 		Automatic Flowbit Resolution
 		
 			Resolve Flowbits "x" If checked, Snort will auto-enable rules required for checked flowbits. Default is Checked.
@@ -200,7 +202,8 @@ Services + Snort + Snort Interfaces + WAN Categories
 		
 Services + Snort + Snort Interfaces + WAN Rules
 --------------------------------------
-	
+
+::
 		Available Rule Categories
 		
 			Buscamos y seleccionamos IPS Policy - Security y luego pulsamos Enable All
@@ -213,27 +216,28 @@ Services + Snort + Snort Interfaces + WAN Rules
 Services + Snort + Snort Interfaces + WAN Variables
 --------------------------------------
 	
-	::
+::
 
 		No tocamos nada.
 		
 Services + Snort + Snort Interfaces + WAN Preprocs
 --------------------------------------
 	
-	::
+::
 
 		No tocamos nada, lo dejamos por default
 		
 Services + Snort + Snort Interfaces + WAN IP Rep
 --------------------------------------
 	
-	::
+::
 
 		No tocamos nada, lo dejamos por default
 		
 Services + Snort + Snort Interfaces + WAN Logs
 --------------------------------------
-	
+
+::
 		No tocamos nada, lo dejamos por default. Pero al momento de querer ver los LOG solo debemos seleccionar que tipo de evento queremos ver.
 
 
