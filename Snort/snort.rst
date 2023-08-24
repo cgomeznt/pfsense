@@ -8,6 +8,7 @@ Veremos que se instala el snort	security	4.1.6_8
 Luego nos vamos a **Services + Snort** y vamos a ir configurando lo siguiente
 
 - Services + Snort + Global Settings 
+--------------------------------------
 
 ::
 	
@@ -55,12 +56,14 @@ Luego nos vamos a **Services + Snort** y vamos a ir configurando lo siguiente
 	
 	
 - Services + Snort + Updates
+--------------------------------------
 
 ::
 
 	- Debemos pulsar sobre el boton **Force Update** para que descargue todas las Reglas, va demorar un poco, y cuando culmine podemos ver el LOG y tambien en **Installed Rule Set MD5 Signature** como se actualizo
 	
 Services + Snort + Alerts
+--------------------------------------
 
 ::
 
@@ -103,6 +106,7 @@ Services + Snort + LOG Mgmt
 	Administración del LOG, tamaño maximo y retención.
 	
 Services + Snort + Sync
+--------------------------------------
 
 ::
 
@@ -111,9 +115,10 @@ Services + Snort + Sync
 Aunque este es el primero del la lista de Menu, lo dejamos de ultimo porque aquí activaremos las configuraciones de IPS/IDS
 
 
-Services + Snort + Snort Interfaces +
+Services + Snort + Snort Interfaces 
+-------------------------------------
 
-	Pulsamos en Add
+Pulsamos en Add
 	
 	- Services + Snort + Snort Interfaces + WAN Settings
 	
@@ -198,14 +203,20 @@ Services + Snort + Snort Interfaces +
 		
 	Services + Snort + Snort Interfaces + WAN Variables
 	
+	::
+
 		No tocamos nada.
 		
 	Services + Snort + Snort Interfaces + WAN Preprocs
 	
+	::
+
 		No tocamos nada, lo dejamos por default
 		
 	Services + Snort + Snort Interfaces + WAN IP Rep
 	
+	::
+
 		No tocamos nada, lo dejamos por default
 		
 	Services + Snort + Snort Interfaces + WAN Logs
@@ -218,6 +229,8 @@ Ya cuando todo este guardado regresamos
 Services + Snort + Snort Interfaces
 
 y en Services + Snort + Snort Interfaces, vamos a ver nuestra configuración creada y lista para iniciarla
+
+::
 
 	Interface	Snort Status	Pattern Match	Blocking Mode	Description	Actions
 	WAN (em0)	 Start/Stop	    	AC-BNFA		LEGACY MODE		WAN
