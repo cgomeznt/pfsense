@@ -14,61 +14,97 @@ Luego nos vamos a **Services + Snort** y vamos a ir configurando lo siguiente
 	- Enable Snort VRT "x" to enable download of Snort free Registered User or paid Subscriber rules
 
 ::
+
 	- En esta opción debemos registrarnos en la pagina de snort "https://www.snort.org/users/sign_up" una vez registrados, nos vamos a la opción **Oinkcodes** y nos lo copiamos.
 
 ::
 
 	- Snort Oinkmaster Copiamos el Oinkcodes
-	
+
+::
+
 	- Enable Snort GPLv2 "x" to enable download of Snort GPLv2 Community rules
+
+::
 	
 	- Enable ET Open "x" to enable download of Emerging Threats Open rules
+
+::
 	
 	- Enable OpenAppID "x" to enable download of Sourcefire OpenAppID Detectors
 	
+::
+	
 	- Enable AppID Open Text Rules "x" to enable download of the AppID Open Text Rules
+
+::
 	
 	- Enable FEODO Tracker Botnet C2 IP Rules "x" to enable download of FEODO Tracker Botnet C2 IP rules
+
+::
 	
 	- Update Interval 1 DAY
 
+::
+
 	- Remove Blocked Hosts Interval 1 HOURS
+	
+::
 	
 	- Keep Snort Settings After Deinstall "x" to retain Snort settings after package removal.
 	
+	
 - Services + Snort + Updates
+
+::
 
 	- Debemos pulsar sobre el boton **Force Update** para que descargue todas las Reglas, va demorar un poco, y cuando culmine podemos ver el LOG y tambien en **Installed Rule Set MD5 Signature** como se actualizo
 	
 Services + Snort + Alerts
 
+::
+
 	No hay nada que hacer aquí, en este apartado veremos las alertas de ataques o posibles ataques que detecta el snort gracias a las reglas descargadas.
 	
 Services + Snort + Blocked
+
+::
 
 	No se configura nada aquí. Se veran las IP bloqueadas y con la descripción del ataque.
 
 Services + Snort + Pass List
 
+::
+
 	Son las listas blancas, es decir las IP permitidas.
 	
 Services + Snort + Suppress
+
+::
 
 	Para remover reglas.
 	
 Services + Snort + IP List
 
+::
+
 	IP Reputacional
 	
 Services + Snort + SID Mgmt
+
+::
 
 	Snort will automatically enable/disable/modify text rules upon each update using criteria specified in SID Management Configuration lists
 
 Services + Snort + LOG Mgmt
 
+::
+
 	Administración del LOG, tamaño maximo y retención.
 	
 Services + Snort + Sync
+
+::
 
 	Sincronización de la configuración hacia otro Host.
 	
@@ -79,8 +115,10 @@ Services + Snort + Snort Interfaces +
 
 	Pulsamos en Add
 	
-	Services + Snort + Snort Interfaces + WAN Settings
+	- Services + Snort + Snort Interfaces + WAN Settings
 	
+	::
+
 		Enable "x" Enable interface
 		
 			General Settings
@@ -90,7 +128,9 @@ Services + Snort + Snort Interfaces +
 			Description WAN
 			
 			Snap Length 1518
-		
+	
+	::
+
 		Block Settings
 		
 			Block Offenders "x" Checking this option will automatically block hosts that generate a Snort alert. Default is Not Checked.
@@ -100,11 +140,15 @@ Services + Snort + Snort Interfaces +
 			Kill States "x" Checking this option will kill firewall established states for the blocked IP. Default is checked.
 			
 			Which IP to Block BOTH
-		
+	
+	::
+
 		Detection Performance Settings
 		
 			Search Method AC-BNFA
-			
+	
+	::
+
 		Choose the Networks Snort Should Inspect and Whitelist
 		
 			Home Net Default
@@ -112,11 +156,15 @@ Services + Snort + Snort Interfaces +
 			External Net Default
 			
 			Pass List Default
-			
+	
+	::
+
 		Choose a Suppression or Filtering List (Optional)
 		
 			Alert Suppression and Filtering Default
-			
+	
+	::
+
 		Save
 		
 	Services + Snort + Snort Interfaces + WAN Categories
