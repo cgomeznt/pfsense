@@ -8,10 +8,15 @@ Veremos que se instala el snort	security	4.1.6_8
 Luego nos vamos a **Services + Snort** y vamos a ir configurando lo siguiente
 
 - Services + Snort + Global Settings 
+
+::
 	
 	- Enable Snort VRT "x" to enable download of Snort free Registered User or paid Subscriber rules
 
+::
 	- En esta opción debemos registrarnos en la pagina de snort "https://www.snort.org/users/sign_up" una vez registrados, nos vamos a la opción **Oinkcodes** y nos lo copiamos.
+
+::
 
 	- Snort Oinkmaster Copiamos el Oinkcodes
 	
