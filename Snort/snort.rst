@@ -126,8 +126,8 @@ Services + Snort + Snort Interfaces
 
 Pulsamos en Add
 	
-	- Services + Snort + Snort Interfaces + WAN Settings
-	--------------------------------------
+- Services + Snort + Snort Interfaces + WAN Settings
+--------------------------------------
 	
 	::
 
@@ -179,8 +179,8 @@ Pulsamos en Add
 
 		Save
 		
-	Services + Snort + Snort Interfaces + WAN Categories
-	--------------------------------------
+Services + Snort + Snort Interfaces + WAN Categories
+--------------------------------------
 	
 		Automatic Flowbit Resolution
 		
@@ -198,8 +198,8 @@ Pulsamos en Add
 			
 		Save
 		
-	Services + Snort + Snort Interfaces + WAN Rules
-	--------------------------------------
+Services + Snort + Snort Interfaces + WAN Rules
+--------------------------------------
 	
 		Available Rule Categories
 		
@@ -210,29 +210,29 @@ Pulsamos en Add
 		Apply
 			
 		
-	Services + Snort + Snort Interfaces + WAN Variables
-	--------------------------------------
+Services + Snort + Snort Interfaces + WAN Variables
+--------------------------------------
 	
 	::
 
 		No tocamos nada.
 		
-	Services + Snort + Snort Interfaces + WAN Preprocs
-	--------------------------------------
+Services + Snort + Snort Interfaces + WAN Preprocs
+--------------------------------------
 	
 	::
 
 		No tocamos nada, lo dejamos por default
 		
-	Services + Snort + Snort Interfaces + WAN IP Rep
-	--------------------------------------
+Services + Snort + Snort Interfaces + WAN IP Rep
+--------------------------------------
 	
 	::
 
 		No tocamos nada, lo dejamos por default
 		
-	Services + Snort + Snort Interfaces + WAN Logs
-	--------------------------------------
+Services + Snort + Snort Interfaces + WAN Logs
+--------------------------------------
 	
 		No tocamos nada, lo dejamos por default. Pero al momento de querer ver los LOG solo debemos seleccionar que tipo de evento queremos ver.
 
