@@ -7,7 +7,7 @@ Veremos que se instala el snort	security	4.1.6_8
 
 Luego nos vamos a **Services + Snort** y vamos a ir configurando lo siguiente
 
-- Services + Snort + Global Settings 
+Services + Snort + Global Settings 
 --------------------------------------
 
 ::
@@ -55,7 +55,7 @@ Luego nos vamos a **Services + Snort** y vamos a ir configurando lo siguiente
 	- Keep Snort Settings After Deinstall "x" to retain Snort settings after package removal.
 	
 	
-- Services + Snort + Updates
+Services + Snort + Updates
 --------------------------------------
 
 ::
